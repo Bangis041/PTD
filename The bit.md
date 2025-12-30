@@ -1,3 +1,5 @@
+
+
 ### Machine name: The Bit
 
 ### OS/Rating: Linux/Easy
@@ -82,4 +84,30 @@ Going to the url http://10.150.150.146, I followed through and landed on a login
 
 <img width="1585" height="1004" alt="image" src="https://github.com/user-attachments/assets/528e4f65-b83f-478b-980d-419696cc5c7f" />
 
+First thing I did was check source code to see if there was any information disclosure that would help but nothing so I tried SQLi as per it is a login form.
 
+<img width="941" height="678" alt="image" src="https://github.com/user-attachments/assets/44a7cfd4-e4fe-41aa-8552-4e102603a9a0" />
+
+and boom! 💣💥 we were logged in
+
+<img width="1913" height="565" alt="image" src="https://github.com/user-attachments/assets/92207403-dee1-48a8-b4dd-85657a09c519" />
+
+### THE HUNT FOR SHELL AND FLAGS
+
+I did not have to do much to get the first flag as it was on the web, all I needed to do was play around and check everything that was clickable on the site and I got flag 3
+
+<img width="1920" height="937" alt="image" src="https://github.com/user-attachments/assets/799970b1-0aec-489b-ae7d-72043871ca04" />
+
+After clowning around and not finding anything, I was able to see an image upload function, I decided to test it for file upload vulnerability. Suprisingly it was where I found the first flag. 
+
+<img width="1920" height="886" alt="image" src="https://github.com/user-attachments/assets/756555ca-3a9c-4578-abf7-81f8acdf21c8" />
+
+I just went stright up and uploaded a php file with php extension and a php code in it to get me RCE
+
+<img width="1900" height="946" alt="image" src="https://github.com/user-attachments/assets/bd5f04c3-648a-44d2-8267-bc2d6d842556" />
+
+And now the testing phase...no long story if did not work, you won't see a screenshot below
+
+<img width="1662" height="546" alt="image" src="https://github.com/user-attachments/assets/f9f0d7b2-59a0-4974-bf97-0ab1817bd21e" />
+
+Now to get reverse shell, I used all the commands I know I can use to get reverse shell to my terminal but it's either I have mad skill issue or the thing no just accept am, I sha later uploaded a script to get me shell again. The box was supposed to be named THE UPLOAD 😂
