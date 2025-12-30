@@ -110,4 +110,13 @@ And now the testing phase...no long story if did not work, you won't see a scree
 
 <img width="1662" height="546" alt="image" src="https://github.com/user-attachments/assets/f9f0d7b2-59a0-4974-bf97-0ab1817bd21e" />
 
-Now to get reverse shell, I used all the commands I know I can use to get reverse shell to my terminal but it's either I have mad skill issue or the thing no just accept am, I sha later uploaded a script to get me shell again. The box was supposed to be named THE UPLOAD 😂
+Now to get reverse shell, I used all the commands I know I can use to get reverse shell to my terminal but it's either I have mad skill issue or the thing no just accept am, I sha later uploaded a script to get me shell again. The box was supposed to be named THE UPLOAD 😂.
+
+<img width="983" height="340" alt="image" src="https://github.com/user-attachments/assets/028c8c36-af6a-417f-8c6c-f0d77d5e8280" />
+
+I set up my python server and...
+
+<img width="1681" height="487" alt="image" src="https://github.com/user-attachments/assets/d55f6a9a-2e34-4bec-84cd-ab172477d380" />
+
+I wgot my file, and then bashed it after setting up a listener and...you know what happened next, check screenshot below
+
