@@ -6,7 +6,8 @@ Platform: Pwntilldawn(PTD)
 
 ### Nmap Scan
 
-```Nmap scan report for 10.150.150.146
+```# Nmap 7.95 scan initiated Tue Dec  9 00:20:31 2025 as: /usr/lib/nmap/nmap --privileged -p- --min-rate 1000 -sV -A -oN nmap.txt -vvv 10.150.150.146
+Nmap scan report for 10.150.150.146
 Host is up, received echo-reply ttl 63 (0.19s latency).
 Scanned at 2025-12-09 00:20:32 WAT for 306s
 Not shown: 65530 closed tcp ports (reset)
@@ -70,26 +71,6 @@ PORT     STATE SERVICE  REASON         VERSION
 | http-title: FBC Engineering Reviewer System
 |_Requested resource was https://10.150.150.146/reviewer/
 3306/tcp open  mysql    syn-ack ttl 63 MariaDB 10.3.24 or later (unauthorized)
-1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port21-TCP:V=7.95%I=7%D=12/9%Time=69375D92%P=x86_64-pc-linux-gnu%r(Gene
-SF:ricLines,92,"220\x20ProFTPD\x20Server\x20\(ProFTPD\)\x20\[::ffff:10\.15
-SF:0\.150\.146\]\r\n500\x20Invalid\x20command:\x20try\x20being\x20more\x20
-SF:creative\r\n500\x20Invalid\x20command:\x20try\x20being\x20more\x20creat
-SF:ive\r\n");
-Device type: general purpose
-Running: Linux 4.X|5.X
-OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
-OS details: Linux 4.15 - 5.19
-TCP/IP fingerprint:
-OS:SCAN(V=7.95%E=4%D=12/9%OT=21%CT=1%CU=41019%PV=Y%DS=2%DC=T%G=Y%TM=69375E7
-OS:2%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)OPS
-OS:(O1=M508ST11NW7%O2=M508ST11NW7%O3=M508NNT11NW7%O4=M508ST11NW7%O5=M508ST1
-OS:1NW7%O6=M508ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN
-OS:(R=Y%DF=Y%T=40%W=FAF0%O=M508NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
-OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
-OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
-OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
-OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
-OS:=S)
+
 ```
 
