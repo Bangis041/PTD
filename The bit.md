@@ -1,8 +1,8 @@
-Box name: The bit
+### Machine name: The bit
 
-Machine/Rating: Linux/Easy
+### OS/Rating: Linux/Easy
 
-Platform: Pwntilldawn(PTD)
+### Platform: Pwntilldawn(PTD)
 
 ### Nmap Scan
 
