@@ -1,10 +1,12 @@
-### Machine name: The bit
+### Machine name: The Bit
 
 ### OS/Rating: Linux/Easy
 
 ### Platform: Pwntilldawn(PTD)
 
-### Nmap Scan
+### IP: 10.150.150.146
+
+### SCANNING AND ENUMERATION
 
 ```# Nmap 7.95 scan initiated Tue Dec  9 00:20:31 2025 as: /usr/lib/nmap/nmap --privileged -p- --min-rate 1000 -sV -A -oN nmap.txt -vvv 10.150.150.146
 Nmap scan report for 10.150.150.146
@@ -73,4 +75,11 @@ PORT     STATE SERVICE  REASON         VERSION
 3306/tcp open  mysql    syn-ack ttl 63 MariaDB 10.3.24 or later (unauthorized)
 
 ```
+
+From the scan seen above, we checked out ftp as it's the first go-to but we did not find anything there as there as we don't have creds and there is no anonymous login. We then proceed to check out other services. Our next line of action is to check out `http`. 
+
+Going to the url http://10.150.150.146, I followed through and landed on a login page 
+
+<img width="1585" height="1004" alt="image" src="https://github.com/user-attachments/assets/528e4f65-b83f-478b-980d-419696cc5c7f" />
+
 
