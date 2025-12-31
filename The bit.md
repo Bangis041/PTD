@@ -124,7 +124,13 @@ I wgot my file, and then bashed it after setting up a listener and...you know wh
 
 ### Getting root shell
 
-Making the shell stable first, python was no where to be found so I learned how to use `script` to make a shell stable(not in this write-up)
+Making the shell stable first, python was no where to be found so I learned how to use `script` to make a shell stable(not in this write-up). So rooting it, I checked `sudo -l` nothing and then I checked for SUID and...
+
+<img width="1218" height="874" alt="image" src="https://github.com/user-attachments/assets/652b6943-c6e4-43e4-a673-eff24107f574" />
+
+And long story short, one of the SUIDs that can be expploited there was `/usr/bin/find`. Another long story short, 
+
+<img width="570" height="157" alt="image" src="https://github.com/user-attachments/assets/64000531-f86d-45fc-8ce1-d8faac0f0570" />
 
 
 
