@@ -134,3 +134,10 @@ And long story short, one of the SUIDs that can be expploited there was `/usr/bi
 
 
 
+## THE INTERESTING PART OF THE BOX
+
+It was rated easy but I went ahead to think like it was not easy and what did it cost me?
+
+I dumped the db since I logged in with sqli, I was thinking I will get pass and use it for ssh lmao 😂. After getting password I still did not check the upload function so I was checking for where the password would work but omo 😭 and then later I found the upload function.
+
+All of this happened because I found the endpoint to dump database before I found the upload button. All in all, I wasted time but I had fun!
