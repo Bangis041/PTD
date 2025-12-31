@@ -116,7 +116,13 @@ Now to get reverse shell, I used all the commands I know I can use to get revers
 
 I set up my python server and...
 
-<img width="1681" height="487" alt="image" src="https://github.com/user-attachments/assets/d55f6a9a-2e34-4bec-84cd-ab172477d380" />
+<img width="1709" height="443" alt="image" src="https://github.com/user-attachments/assets/a3fd6d83-96dd-48aa-abff-8ff129d52f9f" />
 
 I wgot my file, and then bashed it after setting up a listener and...you know what happened next, check screenshot below
+
+<img width="1920" height="479" alt="image" src="https://github.com/user-attachments/assets/febc2d22-e74c-47fc-b994-75fa4a26ef5c" />
+
+### Getting root shell
+
+Making the shell stable first, python was no where to be found so I learned how to use `script` to make a shell stable. 
 
