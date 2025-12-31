@@ -8,7 +8,7 @@
 
 ### IP: 10.150.150.146
 
-### SCANNING AND ENUMERATION
+### Scanning and Enumeration
 
 ```# Nmap 7.95 scan initiated Tue Dec  9 00:20:31 2025 as: /usr/lib/nmap/nmap --privileged -p- --min-rate 1000 -sV -A -oN nmap.txt -vvv 10.150.150.146
 Nmap scan report for 10.150.150.146
