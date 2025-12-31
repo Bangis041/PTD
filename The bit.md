@@ -124,5 +124,7 @@ I wgot my file, and then bashed it after setting up a listener and...you know wh
 
 ### Getting root shell
 
-Making the shell stable first, python was no where to be found so I learned how to use `script` to make a shell stable. 
+Making the shell stable first, python was no where to be found so I learned how to use `script` to make a shell stable(not in this write-up)
+
+
 
